@@ -1,0 +1,8 @@
+h1 {
+    transition: opacity 1s ease;
+    cursor: pointer;
+}
+
+.hidden {
+    opacity: 0;
+}
