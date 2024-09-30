@@ -152,19 +152,43 @@ body {
     align-items: center; /* Centraliza verticalmente */
     height: 100vh; /* Define a altura da página como 100% da altura da janela */
     background-color: black; /* Fundo preto */
+    font-family: Arial, sans-serif; /* Fonte padrão */
 }
 
 .login-container {
     text-align: center; /* Centraliza o texto dentro da caixa de login */
+    color: white; /* Cor do texto */
+}
+
+input {
+    width: 80vw; /* Largura responsiva */
+    max-width: 300px; /* Limita a largura máxima */
+    padding: 10px;
+    margin: 10px 0; /* Espaçamento vertical entre os inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+button {
+    width: 80vw; /* Largura responsiva */
+    max-width: 300px; /* Limita a largura máxima */
+    padding: 10px;
+    background-color: marsala; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
 }
 
 .message, .heart-message, .rb-message {
     text-align: center; /* Centraliza as mensagens */
     color: white; /* Cor do texto */
-    font-size: 24px; /* Tamanho da fonte */
+    font-size: 5vw; /* Tamanho da fonte responsivo */
 }
 
 .heart-symbol {
-    display: inline-block;
-    animation: pulse 1s infinite; /* Animação de pulsar */
+    font-size: 8vw; /* Tamanho do coração responsivo */
 }
+
