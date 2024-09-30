@@ -143,25 +143,8 @@ button {
     font-size: 48px; /* Tamanho do coração */
     color: pink; /* Cor rosa */
 }
-body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden; /* Remove a rolagem da página */
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 100vh; /* Define a altura da página como 100% da altura da janela */
-    background-color: black; /* Fundo preto */
+
+.heart-symbol {
+    display: inline-block;
+    animation: pulse 1s infinite; /* Animação de pulsar */
 }
-
-.login-container {
-    text-align: center; /* Centraliza o texto dentro da caixa de login */
-}
-
-.message, .heart-message, .rb-message {
-    text-align: center; /* Centraliza as mensagens */
-    color: white; /* Cor do texto */
-    font-size: 24px; /* Tamanho da fonte */
-}
-
-
